@@ -23,7 +23,7 @@ module.exports = {
       host : '116.62.244.133',
       ref  : 'origin/master',
       repo : 'git@github.com:osReilly/gd.git',
-      path : '/var/www/production/gdemo',
+      path : '/var/www/production/gd',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
